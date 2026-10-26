@@ -1,0 +1,19 @@
+Comic Relief web font assets
+Retrieved 26 October 2026.
+
+Upstream project: https://github.com/loudifier/Comic-Relief
+License: SIL Open Font License 1.1; see OFL.txt.
+Copyright 2013 The Comic Relief Project Authors.
+
+Source distribution: https://github.com/google/fonts/tree/main/ofl/comicrelief
+Regular TTF: https://github.com/google/fonts/blob/main/ofl/comicrelief/ComicRelief-Regular.ttf
+Git blob SHA: 89bf0faafd3e901f11a5468b2b6bc89b20eb48c1
+Bold TTF: https://github.com/google/fonts/blob/main/ofl/comicrelief/ComicRelief-Bold.ttf
+Git blob SHA: 14f8bf9dc98cc6c572864860c14b817ec4a34aff
+License: https://github.com/google/fonts/blob/main/ofl/comicrelief/OFL.txt
+Git blob SHA: be3ee64f6bd8a7e7a63b43b75796f97ae62933c3
+
+WOFF files were created from the original TTF files using FontTools font.flavor='woff'.
+All glyphs and font names are preserved; this is a container-format conversion only.
+Use Comic Sans MS/Comic Sans from the visitor's installed fonts first; use Comic Relief
+as a bundled fallback when they are absent. No proprietary Comic Sans font is bundled.

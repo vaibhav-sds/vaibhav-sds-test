@@ -1,93 +1,88 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research | Vaibhav Agarwal</title>
-    <meta name="description" content="Research focus, publications, and conference presentations by Vaibhav Agarwal.">
-    <link rel="icon" href="favicon.png" type="image/png">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Research, publications, open-source projects, and teaching by Vaibhav Agarwal in algorithmic governance and social data science.">
+  <title>Research — Vaibhav Agarwal</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-
-    <!-- ══════ NAVIGATION ══════ -->
-    <nav>
-        <div class="nav-inner">
-            <a href="index.html" class="nav-name">VA</a>
-            <div class="nav-right">
-                <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')" aria-label="Toggle menu">
-                    <span></span><span></span><span></span>
-                </button>
-                <ul class="nav-links">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="interests.html">Interests</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
-                    <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-                    <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <main>
-        <!-- ══════ RESEARCH ══════ -->
-        <section id="research">
-            <h2 class="section-heading">Research</h2>
-            <p class="section-subtitle">Presentations, theses, and working papers will appear here.</p>
-            
-            <div class="research-note">
-                I am in the early stages of my doctoral research at the Professorship for Algorithmic Governance and Public Policy (AGAPP) at the Technical University of Munich. My work sits at the intersection of <em>algorithmic governance</em>,
-                <em>public trust</em>, and <em>computational methods</em>. I explore how algorithmic decision-making (ADM) systems are perceived by the public, trying to understand what drives legitimacy and trust.
-                Methodologically, I focus on conjoint experiments and explore how methods like latent class analysis can investigate attribute non-attendance. I also heavily utilize multimodal analysis—spanning text, audio, image, and video—to capture nuanced human interactions.
-            </div>
-
-            <div class="research-interests">
-                <h3>Research Interests</h3>
-                <div class="interest-tags">
-                    <span class="tag">Algorithmic Governance</span>
-                    <span class="tag">Public Trust</span>
-                    <span class="tag">Conjoint Experiments</span>
-                    <span class="tag">Social Data Science</span>
-                    <span class="tag">Multimodal Analysis</span>
-                    <span class="tag">Machine Learning</span>
-                    <span class="tag">Public Policy</span>
-                </div>
-            </div>
-
-            <div class="research-interests" style="margin-top: 40px;">
-                <h3>Conferences & Papers</h3>
-                <div style="margin-top: 16px;">
-                    <p style="font-size: 0.95rem; color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 16px;">
-                        <strong>Conference Presentation:</strong> Digital Dreams and Practices, March 2025,
-                        <em>Digital Humanities in the Nordics and Baltics (DHNB2025)</em>. "Applying Self Organizing Maps (SOM) to PERMA-H Framework: Analysing Well-Being Expressions in Suomi24 Online Discussions" with Mahdi Munshi, Viivi Pentikäinen & Krista Lagus.
-                    </p>
-                    <p style="font-size: 0.95rem; color: var(--color-text-secondary); line-height: 1.7;">
-                        <strong>Journal & Poster:</strong> Computing the Impact of Investment in Renewable Energy Projects on Output Growth of Developing Countries,
-                        March 2023, <em>Azim Premji University Student Research Conclave</em>. Included a poster presentation on the development of accessible data visualizations.
-                    </p>
-                </div>
-            </div>
-            
-        </section>
-    </main>
-
-    <!-- ══════ FOOTER ══════ -->
-    <footer>
-        <p>&copy; 2026 Vaibhav Agarwal · Doctoral Researcher · <a href="https://www.tum.de/" target="_blank">Technical University of Munich</a></p>
-        <p style="margin-top: 4px;">All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="index.html" aria-label="Vaibhav Agarwal, home">VA</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="true" hidden>
+        <span class="theme-glyph" aria-hidden="true">◐</span>
+      </button>
+    </div>
+  </header>
+  <main id="main" class="page">
+    <header class="page-heading"><h1>Research</h1></header><section id="publications" class="content-section" aria-labelledby="publications-heading"><h2 id="publications-heading">Publications</h2><div class="section-content publication-list"><div class="research-profiles"><a href="https://scholar.google.com/citations?user=zqAMT9IAAAAJ&amp;hl=en">Google Scholar ↗</a><a href="https://orcid.org/0009-0001-0770-1008" rel="me">ORCID ↗</a></div><article class="publication">
+<p class="publication-meta">2026 · Journal article</p>
+<h3><a href="https://doi.org/10.20901/an.23.06">Studying the 2024 European Elections through Short Videos: An AC/DT Approach</a></h3>
+<p class="authors">Emilia Palonen, Alexander Alekseev, Tomi Toivio, Juha Koljonen, Kleber Carrilho, <strong>Vaibhav Agarwal</strong></p>
+<p class="venue">Anali Hrvatskog politološkog društva, 23(1)</p>
+<div class="paper-links"><a href="https://doi.org/10.20901/an.23.06">DOI ↗</a></div>
+</article>
+<article class="publication">
+<p class="publication-meta">2026 · Conference paper</p>
+<h3><a href="https://aclanthology.org/2026.htres-2.8/">Emotions In Oral History Interviews: A Multimodal Approach to Holocaust Testimonies</a></h3>
+<p class="authors">Nele Mantaj, <strong>Vaibhav Agarwal</strong>, Inés Matres</p>
+<p class="venue">Proceedings of The Second Workshop on Holocaust Testimonies as Language Resources (HTRes), LREC 2026, pp. 66–73</p>
+<div class="paper-links"><a href="https://doi.org/10.63317/59pkmnv7gtu2">DOI ↗</a><a href="https://aclanthology.org/2026.htres-2.8.pdf">PDF ↗</a></div>
+</article>
+<article class="publication">
+<p class="publication-meta">2026 · Conference proceedings article</p>
+<h3><a href="https://doi.org/10.5617/dhnbpub.13131">Applying Self-Organizing Maps (SOM) to PERMA+H Framework: Analysing Well-Being Expressions in Suomi24 Online Discussions</a></h3>
+<p class="authors">Mahdi Munshi, Viivi Pentikäinen, <strong>Vaibhav Agarwal</strong>, Krista Lagus</p>
+<p class="venue">Digital Humanities in the Nordic and Baltic Countries Publications, 7(4)</p>
+<div class="paper-links"><a href="https://doi.org/10.5617/dhnbpub.13131">DOI ↗</a></div>
+</article></div></section>
+<section id="thesis" class="content-section" aria-labelledby="thesis-heading"><h2 id="thesis-heading">Thesis</h2><div class="section-content publication-list"><article class="publication">
+<p class="publication-meta">2025 · Master&#x27;s thesis</p>
+<h3><a href="https://hdl.handle.net/10138/597339">Evaluation of Algorithmic Systems in Public Governance: Testing Methodological Cohesion in Conjoint Analysis</a></h3>
+<p class="authors"><strong>Vaibhav Agarwal</strong></p>
+<p class="venue">University of Helsinki</p>
+<div class="paper-links"><a href="https://hdl.handle.net/10138/597339">Thesis record ↗</a></div>
+</article></div></section>
+<section id="projects" class="content-section" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="section-content project-list">
+        <article>
+          <h3><a href="https://github.com/vaibhav-sds/IG-TK-Spliter">Instagram & TikTok video splitting <span aria-hidden="true">↗</span></a></h3>
+          <p>Splits feed screen recordings into individual clips using OpenCV and FFmpeg. Developed with Andrew Zaki for HEPP research.</p>
+        </article>
+        <article>
+          <h3><a href="https://github.com/vaibhav-sds/IG-TK-AccNames-OCR">Account-name OCR <span aria-hidden="true">↗</span></a></h3>
+          <p>Extracts account names from Instagram and TikTok videos, with frame evidence, manual review, and Excel export.</p>
+        </article>
+        <article>
+          <h3><a href="https://github.com/vaibhav-sds/EU-Political-NER">EU Political NER <span aria-hidden="true">↗</span></a></h3>
+          <p>Standardises political actor and party names using reviewed glossaries covering ten European countries.</p>
+        </article>
+      </div>
+    </section><section id="teaching" class="content-section" aria-labelledby="teaching-heading">
+      <h2 id="teaching-heading">Teaching</h2>
+      <div class="section-content teaching-list">
+        <article><div><h3>Social Data Science</h3><p>Technical University of Munich · SOT86150</p></div><p class="term">Winter 2026–27</p></article>
+        <article><div><h3>Public Opinion Research Methods</h3><p>Technical University of Munich · SOT86131</p></div><p class="term">Summer 2026</p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <span>© 2026 Vaibhav Agarwal</span>
+    <a href="mailto:vaibhav.agarwal@tum.de">vaibhav.agarwal@tum.de</a>
+  </footer>
 </body>
 </html>

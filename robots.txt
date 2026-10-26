@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://econvaibhav.github.io/sitemap.xml
+Sitemap: https://vaibhav-sds.github.io/sitemap.xml
